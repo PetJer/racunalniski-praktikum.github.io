@@ -1,15 +1,27 @@
 # See docs at: https://mystmd.org/guide/frontmatter
+
 version: 1
+
 project:
-  id: 6c35bbbc-c037-45b2-9f31-653c1eff196f
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
-  github: https://github.com/katjabercic/racunalniski-praktikum
-  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  title: Računalniški praktikum
+  github: https://github.com/racunalniski-praktikum/racunalniski-praktikum.github.io
+  toc:
+    - file: Uvod.md
+    - file: VSCode.md
+    - file: Markdown.md
+    - file: HTML.md
+    - file: CSS.md
+    - file: Latex.md
+    - file: Excel.md
+    - file: Mathematica.md
+    - file: UkaznaVrstica.md
+    - file: Git.md
+
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    logo_text: FMF | Računalniški praktikum
+    favicon: static/favicon.png
+    hide_search: true
+  parts:
+    primary_sidebar_footer: ""

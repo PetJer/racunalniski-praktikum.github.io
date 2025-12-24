@@ -1,7 +1,1 @@
-# MyST build outputs
 ucbenik/_build/
-*.DS_Store
-*.md#
-_minted*
-
-ucbenik/06-uvod-v-latex/urnik.pdf

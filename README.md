@@ -1,13 +1,44 @@
-# Zapiski
+# Učbenik za predmet Računalniški praktikum na FMF
 
-Za izdelavo HTML datotek si morate namestiti paket [`jupyter-book`](https://jupyterbook.org/). Nato pa pokličete
+## Kloniranje repozitorija
 
-```bash
-jupyter-book build ucbenik
+1. Predlagamo, da si v izbranem imeniku ustvarite virtualno okolje.
+
+```shell
+python -m venv .venv
 ```
 
-Če imate ustrezne pravice, lahko HTML najenostavneje objavite kar prek [GitHub pages](https://pages.github.com) tako, da si namestite še paket [`ghp-import`](https://github.com/c-w/ghp-import) in poženete
+2. Virtualno okolje aktivirajte.
 
-```bash
-ghp-import --no-jekyll --no-history --force --push ucbenik/_build/html
+| Windows       | `source .venv\Scripts\activate` |
+|---------------|---------------------------------|
+| MacOS / Linux | `source .venv/bin/activate`     |
+
+3. Namestite Jupyter Book vsaj verzijo 2.
+
+```shell
+pip install "jupyter-book>=2.0.0"
+```
+
+4. Klonirajte repozitorij.
+
+```shell
+git clone git@github.com:racunalniski-praktikum/racunalniski-praktikum.github.io.git
+```
+
+> [!NOTE]
+> Predlagamo, da vse spremembe delate na svoji veji.
+
+## Zaganjanje projekta
+
+1. Premaknite se v imenik `ucbenik`.
+
+```shell
+cd racunalniski-praktikum.github.io/ucbenik/
+```
+
+2. Zaženite Jupyter Book stran.
+
+```shell
+jupyter book start
 ```
