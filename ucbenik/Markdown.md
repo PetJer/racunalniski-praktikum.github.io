@@ -201,3 +201,80 @@ print("Hello")
 ...
 :::
 ::::
+
+## Naloge
+
+:::::{note icon=false} Naloga
+
+Kopirajte spodnje golo besedilo in z uporabo markdown sintakse uredite besedilo tako, da bo prevedeno podobno spodnjemu prevedenemu besedilu.
+
+::::{tab-set}
+:::{tab-item} Golo besedilo
+:sync: gb
+```
+Računalniški praktikum
+
+Predavanja
+
+Predavanja za računalniški praktikum potekajo vsak petek ob 10.00.
+Vso gradivo se nahaja na spletni strani od predavanj
+(https://racunalniski-praktikum.github.io/predavanja/).
+
+Vaje
+
+Vaje so namenjene za ponavljanje in utrjevanje snovi.
+
+Kot pravi rek:
+    Vaja dela mojstra.
+
+Pretekli teden smo tako na vajah delali sledeče:
+    namestili VSCode,
+    ustvarili svojo prvo tekstovno datoteko,
+    prevedli markdown datoteko.
+```
+:::
+:::{tab-item} Prevedeno besedilo
+:sync: pb
+<span style="font-size: 2em">Računalniški praktikum</span>
+
+<span style="font-size: 1.5em">Predavanja</span>
+
+Predavanja za **računalniški praktikum** potekajo vsak petek ob `10.00`. Vso gradivo se nahaja na [spletni strani od predavanj](https://racunalniski-praktikum.github.io/predavanja/).
+
+<span style="font-size: 1.5em">Vaje</span>
+
+Vaje so namenjene za ponavljanje in utrjevanje snovi.
+
+Kot pravi rek:
+> Vaja dela mojstra.
+
+Pretekli teden smo tako na vajah delali sledeče:
+- namestili *VSCode*,
+- ustvarili svojo prvo tekstovno datoteko,
+- prevedli ***markdown*** datoteko.
+:::
+::::
+:::::
+
+:::{tip .dropdown icon=false} Rešitev
+```{code} markdown
+# Računalniški praktikum
+
+## Predavanja
+
+Predavanja za **računalniški praktikum** potekajo vsak petek ob `10.00`.
+Vso gradivo se nahaja na [spletni strani od predavanj](https://racunalniski-praktikum.github.io/predavanja/).
+
+## Vaje
+
+Vaje so namenjene za ponavljanje in utrjevanje snovi.
+
+Kot pravi rek:
+> Vaja dela mojstra.
+
+Pretekli teden smo tako na vajah delali sledeče:
+- namestili *VSCode*,
+- ustvarili svojo prvo tekstovno datoteko,
+- prevedli ***markdown*** datoteko.
+```
+:::
