@@ -170,15 +170,17 @@ print("Hello")
 4. Uporabite bližnjico {kbd}`Ctrl+S`, da shranite datoteko.
 5. Datoteki dodajte končnico `.md`, da se bo datoteka shranila kot markdown datoteka.
 
-![gif](static/gif.gif)
+![Prikaz ustvarjanja nove datoteke](static/markdown/ustvarjanje_nove_datoteke.gif)
 :::
-:::{tab-item} Mac
+:::{tab-item} macOS
 :sync: mac
-...
-:::
-:::{tab-item} Linux
-:sync: lin
-...
+1. Odprite **VSCode**.
+2. Uporabite bližnjico {kbd}`Cmd+N`, da ustvarite novo datoteko.
+3. Zapišite poljubno besedilo z uporabo markdown [sintakse](#sintaksa).
+4. Uporabite bližnjico {kbd}`Cmd+S`, da shranite datoteko.
+5. Datoteki dodajte končnico `.md`, da se bo datoteka shranila kot markdown datoteka.
+
+![Prikaz ustvarjanja nove datoteke](static/markdown/ustvarjanje_nove_datoteke.gif)
 :::
 ::::
 
@@ -190,15 +192,14 @@ print("Hello")
 1. Odprite markdown datoteko z **VSCode**.
 2. Uporabite bližnjico {kbd}`Ctrl+K`{kbd}`V`, da odprete nov zavihek, kjer se nahaja predogled markdown datoteke.
 
-![gif](static/gif.gif)
+![Prikaz prevajanja datoteke](static/markdown/prevajanje_datoteke.gif)
 :::
-:::{tab-item} Mac
+:::{tab-item} macOS
 :sync: mac
-...
-:::
-:::{tab-item} Linux
-:sync: lin
-...
+1. Odprite markdown datoteko z **VSCode**.
+2. Uporabite bližnjico {kbd}`Cmd+K`{kbd}`V`, da odprete nov zavihek, kjer se nahaja predogled markdown datoteke.
+
+![Prikaz prevajanja datoteke](static/markdown/prevajanje_datoteke.gif)
 :::
 ::::
 
